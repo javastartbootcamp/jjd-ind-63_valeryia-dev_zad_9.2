@@ -13,10 +13,6 @@ public class Car extends Vehicle {
         return airConditioningOn;
     }
 
-    public void setAirConditioningOn(boolean airConditioningOn) {
-        this.airConditioningOn = airConditioningOn;
-    }
-
     @SuppressWarnings("checkstyle:WhitespaceAround")
     @Override
     public double getAverageCombustionPer100Km() {

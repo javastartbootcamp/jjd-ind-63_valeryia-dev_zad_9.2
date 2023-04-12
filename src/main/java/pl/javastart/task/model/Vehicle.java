@@ -15,24 +15,8 @@ public class Vehicle {
         return name;
     }
 
-    public void setName(String name) {
-        this.name = name;
-    }
-
-    public double getTankCapacity() {
-        return tankCapacity;
-    }
-
-    public void setTankCapacity(int tankCapacity) {
-        this.tankCapacity = tankCapacity;
-    }
-
     public double getAverageCombustionPer100Km() {
         return averageCombustionPer100Km;
-    }
-
-    public void setAverageCombustionPer100Km(double averageCombustionPer100Km) {
-        this.averageCombustionPer100Km = averageCombustionPer100Km;
     }
 
     public double getRange() {

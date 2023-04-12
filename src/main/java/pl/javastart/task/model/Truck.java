@@ -11,14 +11,6 @@ public class Truck extends Car {
         this.cargoWeight = cargoWeight;
     }
 
-    public double getCargoWeight() {
-        return cargoWeight;
-    }
-
-    public void setCargoWeight(double cargoWeight) {
-        this.cargoWeight = cargoWeight;
-    }
-
     @Override
     public double getAverageCombustionPer100Km() {
         if (isAirConditioningOn()) {
